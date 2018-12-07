@@ -46,7 +46,7 @@ class ViewController: NSViewController {
         layout.itemSpacing = 1.0
         
         s.scrubberLayout = layout
-        s.selectionOverlayStyle = .outlineOverlay
+        //s.selectionOverlayStyle = .outlineOverlay
         s.mode = .free
         s.showsAdditionalContentIndicators = true
         s.dataSource = self
@@ -93,6 +93,8 @@ extension ViewController: NSScrubberDataSource, NSScrubberDelegate {
         let link = selectedItem.link
         
         didSelectLink(link)
+        
+        scrubber.selectedIndex = -1
     }
 }
 
