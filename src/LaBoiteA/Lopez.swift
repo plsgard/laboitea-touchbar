@@ -10,7 +10,7 @@ import AppKit
 
 class Lopez{
     static let baseUrl = "http://boitalopez.neuviemepage.com/mp3/"
-    static let baseInternalUrl = "https://github.com/plsgard/laboitea-touchbar/files/"
+    static let baseInternalUrl = "https://github.com/plsgard/laboitea-touchbar/blob/master/files/"
     static let fileList: [File] = [
             File.init(id: "chucknorris-pied.m4a", name: "Pieds dans la gueule", url: Lopez.baseInternalUrl),
             File.init(id: "chucknorris-bite.m4a", name: "Bite tupperware", url: Lopez.baseInternalUrl),
