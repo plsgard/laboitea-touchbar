@@ -16,6 +16,7 @@ class Lopez{
             File.init(id: "chucknorris-bite.m4a", name: "Bite tupperware", url: Lopez.baseInternalUrl),
             File.init(id: "steve-moiquiaifaitca.m4a", name: "C'est moi qui ai fait ça", url: Lopez.baseInternalUrl),
             File.init(id: "rogerrabbit-jefonds.m4a", name: "Je fooonnds !!", url: Lopez.baseInternalUrl),
+            File.init(id: "fouirene-moule.m4a", name: "Alors ma poule, ...", url: Lopez.baseInternalUrl),
         File.init(id: "mat-yak2.wav", name: "Yak Yak Yak", url: "http://www.wavlist.com/movies/172/"),
         File.init(id: "01-jmappelle.mp3", name: "Je m'appelle Lopez, Joe", url: Lopez.baseUrl),
         File.init(id: "02-suisoblige.mp3", name: "Je suis obligé de faire ça", url: Lopez.baseUrl),
