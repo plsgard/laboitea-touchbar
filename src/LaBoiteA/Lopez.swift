@@ -12,6 +12,9 @@ class Lopez{
     static let baseUrl = "http://boitalopez.neuviemepage.com/mp3/"
     static let baseInternalUrl = "https://github.com/plsgard/laboitea-touchbar/raw/master/files/"
     static let fileList: [File] = [
+        File.init(id: "predator-putain.m4a", name: "Sale petit enfant de putain", url: Lopez.baseInternalUrl),
+        File.init(id: "christophelambert-rire.m4a", name: "C-Lambert", url: Lopez.baseInternalUrl),
+        File.init(id: "jcvd-aware.m4a", name: "Aware", url: Lopez.baseInternalUrl),
             File.init(id: "chucknorris-pied.m4a", name: "Pieds dans la gueule", url: Lopez.baseInternalUrl),
             File.init(id: "chucknorris-bite.m4a", name: "Bite tupperware", url: Lopez.baseInternalUrl),
             File.init(id: "steve-moiquiaifaitca.m4a", name: "C'est moi qui ai fait ça", url: Lopez.baseInternalUrl),
